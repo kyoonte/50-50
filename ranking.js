@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbzkBvwwAAd63fywwGdriphbBdpy3N7OtUrIayzxVinTDfsxbqr9nwkyaxPIiKd5Td85/exec'; // Apps Script の公開 URL（末尾 /exec）
+  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbwq7l_0gTXG6LG_0LWDubpShj2HC6JfIB8XVszQtlfRaHH9-y1wPN731ZM8v6WFh3c/exec'; // Apps Script の公開 URL（末尾 /exec）
   const $ = id => document.getElementById(id);
   const labels = {japan: '日本', world: '世界', random: 'ランダム'};
   let mode = 'random', finished = null, bridge = null, ready = false, serial = 0, version = 0;
