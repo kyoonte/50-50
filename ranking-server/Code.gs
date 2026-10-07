@@ -1,4 +1,4 @@
-const SHEET_ID = '1Mmop5mm1pxdFpSx8bR3AVGXYoW1lxcn8mKmjcV2iER0';
+const SHEET_ID = '1NtYwVVdWzYMXjTgo9TNYN4TVsStwqvAIzzOme9YhuKg';
 function doGet(e) {
   const page = HtmlService.createTemplateFromFile('Bridge');
   page.channel = /^[0-9a-f-]{36}$/.test(e.parameter.channel || '') ? e.parameter.channel : '';
